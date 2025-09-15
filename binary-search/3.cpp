@@ -16,8 +16,9 @@
 // Output: 4
 // Explanation: 9 exists in nums and its index is 4
 
-class Solution {
-public:
+#include <iostream>
+using namespace std;
+#include <vector>
     int search(vector<int>& nums, int target) {
       int left = 0;
         int right = nums.size() - 1;
@@ -38,4 +39,3 @@ public:
 
         return -1; // target not found  
     }
-};
